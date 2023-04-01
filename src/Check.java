@@ -9,7 +9,11 @@ public class Check {
     String newDirectoryName = "new_directory";
 
 
-    public void Chek(String directoryPath, String fileName, String newDirectoryName, String destinationPath, String newFileName) throws IOException {
+    public void Chek(String directoryPath,
+                     String fileName,
+                     String newDirectoryName,
+                     String destinationPath,
+                     String newFileName) throws IOException {
 
         String oldFileName = fileName;
 
