@@ -13,12 +13,18 @@ public class MainProgram {
                 "PeopleDB.odb");
 
         Check PeopledbZIP = new Check();
-        Peopledb.Chek ("C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder",
+        Peopledb.Chek ("C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022",
                 "PeopleDB.odb",
                 "ZipFolder",
                 "C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder",
-                "PeopleDB.zip");
+                "PeopleDB.odb");
 
+        Check PeopledbZipFile = new Check();
+        Peopledb.Chek ("C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder",
+                "PeopleDB.odb",
+                " ",
+                "C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder",
+                "PeopleDB.zip");
 
         /*Check Systemdb = new Check();
         Systemdb.Chek("F:\\.shortcut-targets-by-id\\0B9wojQeziltQXzFGanh3WmUtNVE\\Production and project managment\\Maxim\\DB2022\\DB\\DBSystems\\",
