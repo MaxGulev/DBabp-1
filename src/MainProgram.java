@@ -26,6 +26,19 @@ public class MainProgram {
                 "C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder",
                 "PeopleDB.zip");
 
+        UnzipDirectoryFromZipWithoutExtension unZipPeopleZipFile = new UnzipDirectoryFromZipWithoutExtension();
+        String zipFilePath = "C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\ZipFolder\\PeopleDB.zip";
+        String destDirectory = "C:\\Users\\Zzz\\Desktop\\Работа Завод\\DBabp2022\\Temp";
+        String directoryName = "database";
+        try {
+            UnzipDirectoryFromZipWithoutExtension.unzip(zipFilePath, destDirectory, directoryName);
+            System.out.println("Files extracted successfully!");
+        } catch (IOException ex) {
+            System.out.println("Error extracting files: " + ex.getMessage());
+        }
+
+
+
         /*Check Systemdb = new Check();
         Systemdb.Chek("F:\\.shortcut-targets-by-id\\0B9wojQeziltQXzFGanh3WmUtNVE\\Production and project managment\\Maxim\\DB2022\\DB\\DBSystems\\",
                 "SystemDB.odb",
